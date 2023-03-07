@@ -1,0 +1,56 @@
+.container {
+  position: fixed;
+  top: 30%;
+  left: 25%;
+  display: flex;
+  gap: 10em;
+  align-items: center;
+}
+
+.user_area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.user_area>span {
+  display: flex;
+  align-items: center;
+}
+
+.container>img {
+  width: 15em;
+  height: 15em;
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.user_prompt {
+  font-size: 2em;
+}
+
+.user_actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user_actions>span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.user_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}

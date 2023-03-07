@@ -1,0 +1,22 @@
+.primary_button {
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 1em;
+  padding: 0.4em 2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Roboto Condensed';
+  cursor: pointer;
+}
+
+.secondary_button {
+  background-color: var(--white);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 1em;
+  padding: 0.4em 2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Roboto Condensed';
+  cursor: pointer;
+}

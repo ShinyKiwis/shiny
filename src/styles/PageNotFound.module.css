@@ -1,0 +1,10 @@
+.container {
+  text-align: center;
+  padding-top: 15em;
+}
+
+.link {
+  width: fit-content;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
